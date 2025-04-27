@@ -1,4 +1,4 @@
-# SourceClip
+# CodeClip
 
 A command-line utility for macOS that copies source code from directories to your clipboard in a format optimized for LLMs like ChatGPT, Claude, and others.
 
@@ -18,8 +18,8 @@ A command-line utility for macOS that copies source code from directories to you
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sourceclip.git
-cd sourceclip
+git clone https://github.com/yourusername/codeclip.git
+cd codeclip
 
 # Run the installation script
 chmod +x install_codeclip.sh
@@ -33,35 +33,35 @@ chmod +x install_codeclip.sh
 # Make it executable
 chmod +x codeclip.py
 # Move it to your PATH
-sudo mv codeclip.py /usr/local/bin/sourceclip
+sudo mv codeclip.py /usr/local/bin/codeclip
 ```
 
 ## Usage
 
 ```bash
-sourceclip /path/to/directory [options]
+codeclip /path/to/directory [options]
 ```
 
 ### Examples
 
 ```bash
 # Copy all files from a project
-sourceclip ~/projects/myapp
+codeclip ~/projects/myapp
 
 # Filter by file extensions
-sourceclip ~/projects/myapp --extensions py,js,html
+codeclip ~/projects/myapp --extensions py,js,html
 
 # Exclude certain directories
-sourceclip ~/projects/myapp --exclude node_modules,venv,dist
+codeclip ~/projects/myapp --exclude node_modules,venv,dist
 
 # Limit file size (in KB)
-sourceclip ~/projects/myapp --max-size 100
+codeclip ~/projects/myapp --max-size 100
 
 # Control how deep to traverse
-sourceclip ~/projects/myapp --max-depth 2
+codeclip ~/projects/myapp --max-depth 2
 
 # Combine options
-sourceclip ~/projects/myapp --extensions py,js --exclude node_modules --max-size 200 --max-depth 3
+codeclip ~/projects/myapp --extensions py,js --exclude node_modules --max-size 200 --max-depth 3
 ```
 
 ### Options
@@ -94,6 +94,3 @@ The clipboard content is formatted in Markdown, making it ideal for pasting into
 
 MIT
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
