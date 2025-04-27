@@ -1,6 +1,6 @@
 # CodeClip
 
-A command-line utility for macOS that copies source code from directories to your clipboard in a format optimized for LLMs like ChatGPT, Claude, and others.
+A command-line utility for macOS that copies source code from directories to your clipboard in a format optimized for LLMs like Gemini, ChatGPT, Claude, and others.
 
 ## Features
 
