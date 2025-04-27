@@ -78,7 +78,7 @@ codeclip ~/projects/myapp --extensions py,js --exclude node_modules --max-size 2
 The clipboard content is formatted in Markdown, making it ideal for pasting into LLMs.
 
 
-## Why use SourceClip?
+## Why use CodeClip?
 
 - **Contextual Understanding**: Helps LLMs understand your code structure
 - **Time-Saving**: No need to manually copy multiple files
