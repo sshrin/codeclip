@@ -75,34 +75,8 @@ sourceclip ~/projects/myapp --extensions py,js --exclude node_modules --max-size
 
 ## Output Format
 
-The clipboard content is formatted in Markdown, making it ideal for pasting into LLMs:
+The clipboard content is formatted in Markdown, making it ideal for pasting into LLMs.
 
-```
-# CodeClip Output - N files from /path/to/directory
-
-# Directory Structure (Filtered)
-```
-project/
-  src/
-    main.py
-    utils.py
-  README.md
-```
-
-# Source Files
-
-## File: src/main.py
-## Size: 1.25 KB | Last Modified: 2023-06-15 14:32:21
-```python
-# Source code here
-```
-
-## File: src/utils.py
-## Size: 0.45 KB | Last Modified: 2023-06-15 10:12:03
-```python
-# Source code here
-```
-```
 
 ## Why use SourceClip?
 
